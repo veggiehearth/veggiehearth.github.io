@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14pt;
+}
+
+h2 {
+  font-size: 36pt;
+}
+
+p {
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  position: sticky;
+  list-style-type: none;
+  background-color: white;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  height: 80px;
+  z-index: 1;
+}
+
+.nav li {
+  color: black;
+  font-size: 14pt;
+  padding: 15px 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav li a:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.nav-logo {
+  display: block;
+  float: left;
+}
+
+img.logo {
+  height: 75px;
+}
+
+.nav-links {
+  float: right;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60pt;
+  margin-top: 10%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.index-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+div.index {
+  background-color: white;
+}
+
+.sitemap {
+  display: block;
+  padding: 5% 30% 10% 30%;
+}
+
+.references, .index {
+  padding: 5% 30% 10% 30%;
+}
+
+.references-text ul, .index-text ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.references-text ul li p:first-of-type, .index-text ul li p:first-of-type {
+  font-weight: bold;
+  font-size: 16pt;
+  position: relative;
+  z-index: 0;
+}
+
+li.bullets {
+  list-style: disc;
+  margin: 20px;
+}
+
+ul.sublist {
+  margin-top: 0px;
+}
+
+div.citations {
+  text-indent: -36px;
+  padding-left: 36px;
+}
+
+div.sitemap-text div > * {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.sitemap-text div h3 {
+  font-size: 20pt;
+}
+
+span{
+  position:absolute;
+  top:-200px;
+}
+
+div.sitemap-text div a {
+  color: black;
+  text-decoration: none;
+}
