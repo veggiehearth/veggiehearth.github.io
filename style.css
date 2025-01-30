@@ -143,3 +143,8 @@ div.sitemap-text div a {
   color: black;
   text-decoration: none;
 }
+
+a.links {
+  text-decoration: underline;
+  color: blue;
+}
